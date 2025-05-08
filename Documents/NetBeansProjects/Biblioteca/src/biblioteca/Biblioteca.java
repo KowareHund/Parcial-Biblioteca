@@ -32,7 +32,20 @@ public class Biblioteca {
             }
         } 
         
-        Categoria categoria = new Categoria();
+         String seleccion;
+            Registro_libro registro_libro = new Registro_libro();
+            
+             while (true){
+                System.out.println("¿Que categoria desea ingresar, terror, historia o ciencia?");
+                seleccion = Teclado.nextLine();
+                break;
+                        
+              
+            } 
+            
+        
+        
+        
     }
     
     
