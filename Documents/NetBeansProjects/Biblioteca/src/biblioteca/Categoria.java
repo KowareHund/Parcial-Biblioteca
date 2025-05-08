@@ -3,22 +3,26 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package biblioteca;
-import java.util.ArrayList;
-
+import java.util.Scanner;
 /**
  *
  * @author Estudiante
  */
 public class Categoria {
+    Scanner Tipo_libro = new Scanner(System.in);
     
-    private final ArrayList<Tipo>Terror;
-    private final ArrayList<Tipo>Historia;
-    private final ArrayList<Tipo>Ciencia;
+     public class Terror extends Registro_libro{
     
-    public Categoria{
-    Terror = new ArrayList<>();
-    Historia = new ArrayList<>();
-    Ciencia = new ArrayList<>();
+}
+  public class Historia extends Registro_libro{
+    
+}
+  public class Ciencia extends Registro_libro{
+    
+}
+    
+    
+    
 }
     
 }
